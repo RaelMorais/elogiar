@@ -8,7 +8,7 @@
 **Desenvolvimento Back-end.**
 
 [![Github](https://skillicons.dev/icons?i=github)](https://github.com/RaelMorais)
-[![Linkedin](https://skillicons.dev/icons?i=linkedin)](www.linkedin.com/in/israelstnmorais)
+[![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/israelstnmorais) <!-- Adicionado o https:// -->
 
 ---
 
