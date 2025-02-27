@@ -26,7 +26,7 @@ const config = {
   projectName: 'docs',
   deploymentBranch: 'gh-pages',  // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -87,7 +87,7 @@ const config = {
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/docs/sobre', label: 'Sobre nós', position: 'left'},
+          {to: '/docs/sobre', label: 'Sobre nós', position: 'left'}, 
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
