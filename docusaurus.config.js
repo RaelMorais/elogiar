@@ -18,7 +18,7 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -26,7 +26,7 @@ const config = {
   projectName: 'docs',
   deploymentBranch: 'gh-pages',  // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -87,7 +87,7 @@ const config = {
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/docs/sobre', label: 'Sobre nós', position: 'left'}, 
+          {to: '/docs/sobre', label: 'Sobre nós', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
