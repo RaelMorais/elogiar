@@ -34,6 +34,8 @@
 ## Talita Cristina
 **Design UI/UX & FrontEnd.**
 
+[![Github](https://skillicons.dev/icons?i=github)](https://github.com/CriativoCoders)
+[![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/talita-cristina-538346317/)
 
 ---
 
