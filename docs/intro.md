@@ -20,71 +20,8 @@ O **eLOGiar** surgiu com o propósito de ser um auxílio para tornar realidade u
 
 > **_"Boas atitudes não devem ficar invisíveis."_**
 
----
 
-## 🎯 **OBJETIVOS**
-
-## 2.1. **Objetivos Gerais**
-
-O principal objetivo do **eLOGiar** é servir como um meio de conectar os colaboradores da área **Logística**, reconhecendo atos de **proatividade**, **eficiência**, **inovação** e **trabalho em equipe**. Isso será feito por meio de **indicações entre os colegas de trabalho**, que poderão ser premiados em um evento especial para o setor: **ConectaLOG**.
-
-## 2.2. **Objetivos Específicos**
-
-- 🌟 Desenvolver uma ferramenta **fácil de acessar** para **elogiar** alguém.
-- 🤝 Conectar as pessoas das diversas áreas de **logística** da planta.
-- 💬 **Compartilhar ideias** e **elogiar as atitudes** de cada um.
-- 📝 **Entrar no eLOGiar**, elogiar seus feitos e características.
-- 🏆 **Servir como parâmetro** em premiações na área.
-
----
-
-## 📋 **PRODUCT BACKLOG**
-
-# 🚀 **RF01 – Administradores**
-
-- **RF01.1** – Cadastrar os **usuários** no sistema. 
-- **RF01.2** – Modificar as **categorias**. 
-- **RF01.3** – Exportar os **dados de votação** em **Excel**. 
-
-# 🎯 **RF02 – Usuário padrão**
-
-- **RF02.01** – Deve **selecionar a categoria**. 
-- **RF02.02** – Deve **selecionar uma pessoa** para votar. 
-- **RF02.03** – Deve inserir uma **mensagem opcional**. 
-- **RF02.04** – Deve **enviar** seu **voto**. 
-
----
-
-## ⚙️ **REQUISITOS NÃO FUNCIONAIS**
-
-- **RNF01** – O sistema permitir que o **administrador** realize operações de **Criar**, **Atualizar** e **Remover** usuários ou categorias.
-- **RNF02** – O sistema deve permitir acessar a administração **somente com login**.
-- **RNF03** – O **usuário** só pode votar em uma pessoa **uma única vez** por categoria.
-- **RNF04** – O sistema deve ser capaz de aguentar **várias requisições de votos** simultâneas.
-- **RNF05** – O banco de dados deve **armazenar todas as informações** colocadas no momento da votação.
-- **RNF06** – O servidor de hospedagem **deve ser em Django**.
-
----
-
-## 📌 **PREMISSAS**
-
-- **PRE01** – **Acessar o eLOGiar**.
-- **PRE02** – **Acessar a escolha de categoria**.
-- **PRE03** – **Escolher o usuário** a ser votado e o **votante**.
-- **PRE04** – **Realizar voto**.
-- **PRE05** – **Confirmar voto através de vídeo**.
-
----
-
-## 🚫 **RESTRIÇÕES**
-
-- **RES01** – **Necessário hospedagem** do servidor **Django**.
-- **RES02** – **Necessário um dispositivo** para acesso ao site.
-- **RES03** – Um **usuário não pode votar** nele mesmo ou em outro colega **duas vezes** na mesma categoria.
-- **RES04** – **Necessário o usuário estar cadastrado** no banco de dados para votar ou ser votado.
-
-
-## 🗓️ **Sprints**
+## Nossas Sprints
 
 **Primeiro Dia** 🚀
 
@@ -92,8 +29,6 @@ O principal objetivo do **eLOGiar** é servir como um meio de conectar os colabo
 - 📅 **Reunião de apresentação do projeto** com a **Roseli**;
 - 📌 **Agendamento de reunião** para mais detalhes do projeto;
 - 🛠️ **Início da prototipação**.
-
----
 
 **Segundo Dia** 📈
 
@@ -104,8 +39,6 @@ O principal objetivo do **eLOGiar** é servir como um meio de conectar os colabo
 - 🔧 **Definição do escopo do backend** e desenvolvimento do **documento de levantamento de requisitos** do software.
 - 🔄 **Escopo do backend** para entender a **lógica por trás**.
 - 🎉 **Sorteio dos grupos** de projeto do **Hackathon**.
-
----
 
 **Terceiro Dia** 💻
 
@@ -118,8 +51,6 @@ O principal objetivo do **eLOGiar** é servir como um meio de conectar os colabo
 - 🎬 **Início do desenvolvimento do vídeo pitch e apresentação**.
 - 🔗 **Início da integração entre front e back**.
 
----
-
 **Quarto Dia** ⚙️
 
 - ✅ **Finalização do backend**.
@@ -127,8 +58,6 @@ O principal objetivo do **eLOGiar** é servir como um meio de conectar os colabo
 - 🎬 **Gravação de uma parte do vídeo pitch**.
 - 📝 **Início da elaboração do roteiro** para a apresentação.
 - 💬 **Reunião breve** entre os integrantes sobre o **vídeo pitch**.
-
----
 
 **Quinto Dia** 🏁
 
@@ -138,15 +67,11 @@ O principal objetivo do **eLOGiar** é servir como um meio de conectar os colabo
 - 📞 **Reunião com os Focal Points**.
 - 📋 **Roteirização das atividades** para a próxima semana.
 
----
-
 **Sexto Dia** ⏳
 
 - ✨ **Finalização dos GIFs**.
 - 🎥 **Realização do Vídeo Pitch**.
 - 💻 **Finalização do Frontend**.
-
----
 
 **Sétimo Dia** 🌟
 
@@ -157,129 +82,19 @@ O principal objetivo do **eLOGiar** é servir como um meio de conectar os colabo
 - 📝 **Finalização da documentação**.
 - 🖥️ **Início do desenvolvimento da documentação** no **Docsaurus**.
 
----
-
 **Oitavo Dia** 🎯
 
 - ✅ **Finalização do site**.
 - 🎤 **Treinamento para apresentação**.
-
----
 
 **Nono Dia** 🎉
 
 - 🎤 **Treinamento para apresentação**.
 - ✅ **Conclusão do Docsaurus**.
 
-
 ## 🎶Caso de uso 
 
 ![Caso de uso](/img/casoUso.jpg)
-
-## 🎲 **Modelo de Banco de Dados**
-
-O banco de dados foi desenvolvido utilizando o **SQLite** como **SGBD** integrado ao framework **Django** em **Python**. A seguir, descrevemos a estrutura lógica e conceitual do modelo. Ele é composto por três **entidades principais**:
-
----
-
-1️⃣ **Categoria** 🎯
-
-A tabela **Categoria** armazena informações sobre as categorias de votação, como o nome da categoria.
-
-- **Atributos**:
-  - `id_categoria`: Identificador único para cada categoria (Chave Primária).
-  - `nome_categoria`: Nome da categoria, como "Melhor Colaborador", "Melhor Inovação", etc.
-
----
-
-2️⃣ **Usuário** 👤
-
-A tabela **Usuário** armazena informações sobre os usuários que podem votar, como o nome do usuário.
-
-- **Atributos**:
-  - `id_usuario`: Identificador único para cada usuário (Chave Primária).
-  - `nome_usuario`: Nome do usuário que participa da votação.
-
----
-
-3️⃣ **Votos** 🗳️
-
-A tabela **Votos** armazena os votos em si, incluindo a mensagem votada, a categoria e o usuário associados ao voto.
-
-- **Atributos**:
-  - `id_voto`: Identificador único para cada voto (Chave Primária).
-  - `mensagem_voto`: Mensagem opcional que o usuário pode incluir ao votar.
-  - `id_categoria`: Relacionamento com a tabela **Categoria** (Chave Estrangeira).
-  - `id_usuario`: Relacionamento com a tabela **Usuário** (Chave Estrangeira).
-
----
-
-🔗 **Relacionamentos**:
-
-- **Categoria - Votos**:
-  - Um relacionamento de **um para muitos**, onde **uma categoria** pode ter múltiplos votos associados a ela.
-  
-- **Usuário - Votos**:
-  - Um relacionamento de **um para muitos**, onde **um usuário** pode realizar múltiplos votos.
-
----
-
-🔑 **Chaves**:
-
-- **Chaves Primárias**:
-  - `id_categoria`, `id_usuario` e `id_voto` são as chaves primárias que identificam exclusivamente cada registro nas respectivas tabelas.
-  
-- **Chaves Estrangeiras**:
-  - `id_categoria` e `id_usuario` na tabela **Votos** estabelecem os relacionamentos com as tabelas **Categoria** e **Usuário**, respectivamente.
-
----
-
-🔄 **Tecnologias**:
-
-- **SQLite** 📊: Banco de dados relacional leve utilizado para armazenar os dados de forma eficiente.
-- **Django** 🐍: Framework web de alto nível para desenvolvimento rápido de aplicações Python.
-- **Python** 🧑‍💻: Linguagem de programação que alimenta o framework Django e a lógica por trás da aplicação.
-
----
-
-📌 **Exemplo de Estrutura SQLite Django**:
-
-```python
-from django.db import models
-
-class Categoria(models.Model):
-    nome_categoria = models.CharField(max_length=255)  
-    
-    def __str__(self):
-        return self.nome_categoria
-
-class Usuario(models.Model):
-    nome_usuario = models.CharField(max_length=255) 
-    
-    def __str__(self):
-        return self.nome_usuario
-
-class Voto(models.Model):
-    mensagem_voto = models.TextField(null=True, blank=True) 
-    categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE) 
-    usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE)  
-    
-    def __str__(self):
-        return f'Voto de {self.usuario.nome_usuario} na categoria {self.categoria.nome_categoria}'
-
-```
-
-## 📉 **Diagrama de Entidade e Relacionamento**
-
-**Modelo Conceitual** 
-
-![Conceitual](/img/conceitual.jpg)
-
-
-**Modelo Lógico** 
-
-![Lógico](/img/logico.png)
-
 
 ## 🔍 Pesquisas Realizadas 
 
