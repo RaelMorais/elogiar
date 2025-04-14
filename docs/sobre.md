@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Sobre nós
 
 <!-- ![Texto alternativo](./img/docusaurus.png) -->

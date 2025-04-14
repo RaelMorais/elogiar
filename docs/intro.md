@@ -337,6 +337,9 @@ O projeto foi dividido em **sprints** com prazos definidos para cada etapa. Cada
 
 📅 **Organização e Ferramentas Usadas**
 
+## Token com JWT
+
+
 Para organização e desenvolvimento das **Sprints**, usamos o **Trello** para planejar, controlar e garantir que todas as tarefas fossem feitas no prazo. No **Trello**, criamos **Abas** para cada Sprint descrita acima. Assim, após cada tarefa ser concluída, ela era movida para a Aba de **"Concluídos"**. 📋
 
 ![Trello](/img/trello.png)
