@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docs',
-  tagline: 'Documentação eLOGiar',
-  favicon: 'img/favicon.ico',
+  title: 'eLOGiar',
+  tagline: 'Boas atitudes não devem ficar invisíveis!',
+  favicon: 'img/logo_log.png',
 
   // Set the production url of your site here
   url: 'https://github.com',

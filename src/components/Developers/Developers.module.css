@@ -1,0 +1,65 @@
+.developersSection {
+  padding: 3rem 1rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.devTitle {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.devGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+.devCard {
+  width: 220px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.devCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cardOverlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(22, 16, 26, 0.8), rgba(3, 0, 2, 0.4));
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 16px 16px;
+  transition: background 0.3s ease;
+}
+
+.cardOverlay h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.2rem;
+}
+
+.cardOverlay p {
+  margin: 0;
+  font-size: 0.9rem;
+}

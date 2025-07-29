@@ -3,6 +3,9 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Developers from '../components/Developers';
+import AboutProject from '../components/AboutProject';
+import ProjectVideo from '../components/ProjectVideo';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -32,10 +35,13 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="Documentação eLOGiar - Hackthon 8° Edição <head />">
+      description="Documentação eLOGiar - Hackthon 8° Edição">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <AboutProject />
+        <ProjectVideo />
+        <Developers />
       </main>
     </Layout>
   );
