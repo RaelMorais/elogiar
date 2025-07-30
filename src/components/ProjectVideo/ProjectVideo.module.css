@@ -8,6 +8,7 @@
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   overflow: hidden;
+  justify-content: center;
   max-width: 100%;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .projectTitle{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
     color: var(--ifm-color-primary-darker);

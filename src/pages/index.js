@@ -6,10 +6,10 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Developers from '../components/Developers';
 import AboutProject from '../components/AboutProject';
 import ProjectVideo from '../components/ProjectVideo';
-
+import TechStack from '../components/DevTecnologies';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-
+import VideoBanner from '../components/VideoPageInformation';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -42,6 +42,8 @@ export default function Home() {
         <AboutProject />
         <ProjectVideo />
         <Developers />
+        <TechStack />
+        <VideoBanner />
       </main>
     </Layout>
   );

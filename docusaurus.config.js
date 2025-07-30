@@ -88,6 +88,7 @@ const config = {
             label: 'Documentação',
           },
           {to: '/docs/sobre', label: 'Sobre nós', position: 'left'},
+          {to: '/docs/demo', label: 'Demonstração', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
