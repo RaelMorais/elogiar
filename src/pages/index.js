@@ -10,7 +10,7 @@ import TechStack from '../components/DevTecnologies';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import VideoBanner from '../components/VideoPageInformation';
-
+import Card from '../components/CardCongrats';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
 
@@ -45,6 +45,7 @@ export default function Home() {
             Acessar documentação
           </Link>
         </div>
+        <Card/>
         <VideoBanner />
       </main>
     </Layout>

@@ -4,21 +4,17 @@ import styles from "./VideoGallery.module.css"; // Estilo separado (CSS puro)
 const videos = [
   {
     title: "1. Acessando a plataforma",
-    src: "/videos/meu-video.mp4",
+    src: "/videos/plataforma.mp4",
   },
   {
     title: "2. Realizando um voto",
-    src: "/videos/meu-video.mp4",
+    src: "/videos/voto.mp4",
   },
   {
     title: "3. Exportando os dados",
-    src: "/videos/meu-video.mp4",
+    src: "/videos/exportando_excel.mp4",
   },
-  {
-    title: "4. Exportando os dados",
-    src: "/videos/meu-video.mp4",
-  },
- 
+
 ];
 
 export default function VideoGallery() {

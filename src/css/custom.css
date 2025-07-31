@@ -29,9 +29,15 @@
 
 /* altera o background do banner principal */
 .hero.hero--primary {
-  background: linear-gradient(135deg, #4299BC, #04BFBF, #DBBFFD);
+  background-image: url('/img/elogiar_equipe_desenho.jpeg');
   background-size: cover;
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   color: white; 
+}
+
+.footer {
+  background-color: transparent;
+  color: rgb(143, 141, 141);
 }

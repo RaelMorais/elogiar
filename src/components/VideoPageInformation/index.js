@@ -6,7 +6,7 @@ export default function VideoBanner() {
       style={{ 
         position: "relative", 
         width: "100%", 
-        height: "60vh", 
+        height: "90vh", 
         overflow: "hidden",
         marginBottom: "2rem",
       }}>
@@ -32,7 +32,7 @@ export default function VideoBanner() {
         style={{
           position: "relative",
           zIndex: 2,
-          height: "60vh",
+          height: "90vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -46,7 +46,7 @@ export default function VideoBanner() {
       
         }}
       >
-        <p>Boas atitudes não devem ficar invisíveis.</p>
+        <p>Boas atitudes não devem ficar invisíveis</p>
       </div>
     </div>
   );
