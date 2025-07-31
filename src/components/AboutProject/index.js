@@ -4,7 +4,7 @@ import styles from './AboutProject.module.css';
 export default function AboutProject() {
   return (
     <section className={styles.aboutSection}>
-      <h2 className={styles.projectTitle}>Sobre o Projeto</h2>
+      <h2>Sobre o Projeto</h2>
       <p className={styles.projectDescription}>
 
         O eLOGiar surgiu com o propósito de transformar em realidade uma visão que nasceu dentro da área de logistica da Bosch.

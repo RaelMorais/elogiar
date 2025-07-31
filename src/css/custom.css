@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #18A2D9;
+  --ifm-color-primary: #4299BC;
   --ifm-color-primary-dark: #0578A6;
   --ifm-color-primary-darker: #263440;
   --ifm-color-primary-darkest: #04BFBF;
@@ -29,7 +29,7 @@
 
 /* altera o background do banner principal */
 .hero.hero--primary {
-  background-image: url(''); /* por a imagem na pasta static/img */
+  background: linear-gradient(135deg, #4299BC, #04BFBF, #DBBFFD);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

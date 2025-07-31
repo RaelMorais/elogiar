@@ -3,6 +3,18 @@ import styles from './Developers.module.css';
 
 const developers = [
   {
+    name: 'Ariane Silva',
+    role: 'Design UI/UX & FrontEnd',
+    linkedin: 'https://www.linkedin.com/in/ariane-silva-a21039260/',
+    img: '/img/ariane.png',
+  },
+  {
+    name: 'Gabriela Alejandra',
+    role: 'Design UI/UX & FrontEnd',
+    linkedin: 'https://github.com/gabriela70707',
+    img: '/img/gabi.png',
+  },
+  {
     name: 'Gustavo Bruno',
     role: 'Desenvolvimento Back-end',
     linkedin: 'https://www.linkedin.com/in/gustavo-bruno-90344a272/',
@@ -25,18 +37,6 @@ const developers = [
     role: 'Design UI/UX & FrontEnd',
     linkedin: 'https://www.linkedin.com/in/talita-cristina-538346317/',
     img: '/img/talita.png',
-  },
-  {
-    name: 'Ariane Silva',
-    role: 'Design UI/UX & FrontEnd',
-    linkedin: 'https://www.linkedin.com/in/ariane-silva-a21039260/',
-    img: '/img/ariane.png',
-  },
-  {
-    name: 'Gabriela Alejandra',
-    role: 'Design UI/UX & FrontEnd',
-    linkedin: 'https://github.com/gabriela70707',
-    img: '/img/gabi.png',
   },
 ];
 

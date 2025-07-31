@@ -2,9 +2,16 @@ import React from "react";
 
 export default function VideoBanner() {
   return (
-    <div style={{ position: "relative", width: "100%", height: "60vh", overflow: "hidden" }}>
+    <div 
+      style={{ 
+        position: "relative", 
+        width: "100%", 
+        height: "60vh", 
+        overflow: "hidden",
+        marginBottom: "2rem",
+      }}>
       <video
-        src="/videos/meu-video.mp4"
+        src="/videos/fotos.mp4"
         autoPlay
         muted
         loop
@@ -35,9 +42,11 @@ export default function VideoBanner() {
           textShadow: "2px 2px 8px rgba(0,0,0,0.8)",
           padding: "0 1rem",
           textAlign: "center",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+      
         }}
       >
-        <p>Boas atitudes transformam.</p>
+        <p>Boas atitudes não devem ficar invisíveis.</p>
       </div>
     </div>
   );

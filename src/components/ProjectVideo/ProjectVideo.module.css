@@ -19,11 +19,3 @@
   width: 100%;
   height: 100%;
 }
-
-.projectTitle{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: var(--ifm-color-primary-darker);
-    margin-bottom: 40px;
-}
