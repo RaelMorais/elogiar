@@ -11,7 +11,7 @@ export default function VideoBanner() {
         marginBottom: "2rem",
       }}>
       <video
-        src="/videos/fotos.mp4"
+        src="/videos/cores.mp4"
         autoPlay
         muted
         loop

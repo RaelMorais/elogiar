@@ -39,6 +39,13 @@ export default function Home() {
         <Developers />
         <TechStack />
         <div className={styles.buttons}>
+          <div className={styles.text_containerDocumentation}>
+            <h2>Quer saber mais sobre o projeto?</h2>
+            <p>
+              Acesse a documentação do projeto para entender melhor como ele foi
+              desenvolvido.
+            </p>
+          </div>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">

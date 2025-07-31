@@ -11,6 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'eLOGiar',
+  tagline: 'Plataforma de reconhecimento',
 
   // Set the production url of your site here
   url: 'https://github.com',
