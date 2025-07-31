@@ -4,7 +4,9 @@
   max-width: 1500px;
   margin: 40px auto;
   overflow: hidden;
+
 }
+
 
 .card-image-container {
   width: 50%;
@@ -34,4 +36,34 @@
 .card-text {
   margin-top: 10px;
   font-size: 1rem;
+}
+
+
+@media (max-width: 900px) {
+  .card-container {
+    flex-direction: column;
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  .card-image-container,
+  .card-content {
+    width: 100%;
+  }
+
+  .card-image {
+    height: 250px; 
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
 }

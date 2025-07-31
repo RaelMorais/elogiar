@@ -37,7 +37,7 @@ export default function VideoBanner() {
           justifyContent: "center",
           alignItems: "center",
           color: "white",
-          fontSize: "2rem",
+          fontSize: "25px",
           fontWeight: "bold",
           textShadow: "2px 2px 8px rgba(0,0,0,0.8)",
           padding: "0 1rem",
